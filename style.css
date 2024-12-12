@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:white;
+    color: #333;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+nav{
+    margin-top: 25px;
+    font-size: 20px;
+}
+nav ul {
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgrey;
+    color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.intro {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+.intro h2{
+    margin-bottom: 20px;
+}
+.resumecontent, .biodatacontent {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);
+}
+.resumecontent h2, .biodatacontent h2 {
+    text-align: center;
+}
+.resumecontent h4, .biodatacontent h3 {
+    margin-top: 20px;
+    color: black;
+}
+ul {
+    padding-left: 20px;
+}
+.biodatacontent h2{
+    margin-bottom: 25px;
+}
+p{
+    margin: 8px;
+}
+p b{
+    text-decoration: underline;
+    padding: 5px;
+}
